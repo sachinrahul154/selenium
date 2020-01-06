@@ -4,16 +4,17 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
- 
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class BrokenLinks {
  public static void main(String[] args) throws InterruptedException {
  //Instantiating FirefoxDriver
- System.setProperty("webdriver.gecko.driver", "D:\\Selenium Environment\\Drivers\\geckodriver.exe");
- WebDriver driver = new FirefoxDriver();
+ System.setProperty("webdriver.chrome.driver","G:\\Java\\seleniumProject\\Data\\driver\\chromedriver.exe");
+ WebDriver driver = new ChromeDriver();
  //Maximize the browser
  driver.manage().window().maximize();
  //Implicit wait for 10 seconds
@@ -36,8 +37,7 @@ public class BrokenLinks {
  //See the detailed functionality of the verifyLink(url) method below
  verifyLink(url); 
  } 
- }
- 
+ } 
  // The below function verifyLink(String urlLink) verifies any broken links and return the server status. 
  public static void verifyLink(String urlLink) {
         //Sometimes we may face exception "java.net.MalformedURLException". Keep the code in try catch block to continue the broken link analysis

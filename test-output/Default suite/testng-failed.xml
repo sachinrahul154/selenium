@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumProject.AlertInterface">
+      <class name="seleniumProject.BasePack">
         <methods>
-          <include name="alertWindow"/>
+          <include name="afterMethod"/>
+          <include name="BeforeTest"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- seleniumProject.AlertInterface -->
+      </class> <!-- seleniumProject.BasePack -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

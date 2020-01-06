@@ -8,7 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="G:/Selenium_Files/Jar/selenium-server-standalone-3.14.0.jar"/>
-	<classpathentry kind="lib" path="G:/SeleniumData/Individual Jars/selenium-chrome-driver-3.141.59.jar"/>
 	<classpathentry kind="lib" path="G:/SeleniumData/Individual Jars/poi-3.6.jar"/>
 	<classpathentry kind="lib" path="G:/SeleniumData/Apache-Poi/poi-3.13-beta1-20150723.jar"/>
 	<classpathentry kind="lib" path="G:/SeleniumData/Apache-Poi/poi-examples-3.13-beta1-20150723.jar"/>
